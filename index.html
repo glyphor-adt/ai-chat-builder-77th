@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Chat Application</title>
+    <meta name="description" content="Engage with an intelligent AI assistant for seamless conversations and instant support.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: 'hsl(222.2 84% 4.9%)',
+              foreground: 'hsl(210 40% 98%)',
+              primary: 'hsl(217.2 91.2% 59.8%)',
+              'primary-foreground': 'hsl(222.2 47.4% 11.2%)',
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-background text-foreground">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
